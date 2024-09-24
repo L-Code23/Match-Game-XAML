@@ -14,18 +14,35 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Match_Game
+    
 {
-
+    using System.Threading;
+    using System.Windows.Threading;
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        DispatcherTimer timer = new DispatcherTimer();
+        int tenthsOfSecondsElapse;
+        int matchesFound;
         public MainWindow()
         {
             InitializeComponent();
-
+            timer.Interval = TimeSpan.FromSeconds(.1);
+            timer.Tick += Timer_Tick;
             SetUpGame();
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            tenthsOfSecondsElapse++;
+            timeTextBlock1.Text = (tenthsOfSecondsElapse / 10F).ToString("0.0s");
+            if(matchesFound == 8)
+            {
+                timer.Stop();
+                timeTextBlock1.Text = timeTextBlock1.Text + "-Play Again?";
+            }
         }
 
         private void SetUpGame()
@@ -45,11 +62,19 @@ namespace Match_Game
 
             foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
             {
-                int index = random.Next(animalEmoji.Count);
-                string nextEmoji = animalEmoji[index];
-                textBlock.Text = nextEmoji;
-                animalEmoji.RemoveAt(index);
+                if (textBlock.Name != "timeTextBlock1")
+                {
+                    textBlock.Visibility = Visibility.Visible;
+                    int index = random.Next(animalEmoji.Count);
+                    string nextEmoji = animalEmoji[index];
+                    textBlock.Text = nextEmoji;
+                    animalEmoji.RemoveAt(index);
+                }
+         
             }
+        timer.Start();
+            tenthsOfSecondsElapse = 0;
+            matchesFound = 0;
         }
         TextBlock lastTextBlockClicked;
         bool findingMatch = false;
@@ -64,6 +89,7 @@ namespace Match_Game
             }
             else if(textBlock.Text == lastTextBlockClicked.Text)
             {
+                matchesFound++;
                 textBlock.Visibility = Visibility.Hidden;
                 findingMatch= false;
             }
@@ -73,5 +99,15 @@ namespace Match_Game
                 findingMatch = false;
             }
         }
+
+        private void timeTextBlock1_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if(matchesFound == 8)
+            {
+                SetUpGame();
+            }
+        }
+       
     }
 }
+

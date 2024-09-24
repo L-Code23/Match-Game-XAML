@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{E8927CA8-6C2F-4FB9-AC1D-389F9C8085BB}|Match Game\\Match Game.csproj|solutionrelative:match game\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramse\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8927CA8-6C2F-4FB9-AC1D-389F9C8085BB}|Match Game\\Match Game.csproj|C:\\Users\\ramse\\source\\Match Game\\match game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8927CA8-6C2F-4FB9-AC1D-389F9C8085BB}|Match Game\\Match Game.csproj|solutionrelative:match game\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -36,14 +39,14 @@
               "RelativeDocumentMoniker": "Match Game\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ramse\\source\\Match Game\\Match Game\\MainWindow.xaml.cs",
               "RelativeToolTip": "Match Game\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEgAAAAlAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T16:36:21.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\Match Game\\Match Game\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Match Game\\MainWindow.xaml",
@@ -55,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\ramse\\source\\Match Game\\Match Game\\App.xaml",
               "RelativeDocumentMoniker": "Match Game\\App.xaml",
@@ -64,6 +67,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-23T16:49:38.157Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WpfXamlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\ramse\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "ToolTip": "C:\\Users\\ramse\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs [Read Only]",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAwwHcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T18:46:40.619Z",
+              "EditorCaption": " [Read Only]"
             }
           ]
         }

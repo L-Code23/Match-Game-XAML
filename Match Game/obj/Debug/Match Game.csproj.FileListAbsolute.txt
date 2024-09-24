@@ -1,0 +1,15 @@
+C:\Users\ramse\source\Match Game\Match Game\bin\Debug\Match Game.exe.config
+C:\Users\ramse\source\Match Game\Match Game\bin\Debug\Match Game.exe
+C:\Users\ramse\source\Match Game\Match Game\bin\Debug\Match Game.pdb
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game.csproj.AssemblyReference.cache
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\MainWindow.g.cs
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\App.g.cs
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game_MarkupCompile.cache
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game_MarkupCompile.lref
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\MainWindow.baml
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game.g.resources
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match_Game.Properties.Resources.resources
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game.csproj.GenerateResource.cache
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game.csproj.CoreCompileInputs.cache
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game.exe
+C:\Users\ramse\source\Match Game\Match Game\obj\Debug\Match Game.pdb
